@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CSS Variables</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h2>Update CSS Variables with <span class="h-js">JS</span> </h2>
+	<div class="container">
+		<label for="spacing">Spacing: </label>
+		<input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+		<label for="blur">Blur: </label>
+		<input type="range" name="blur" min="0" max="25" value="0" data-sizing="px">
+
+		<label for="color">Colors: </label>
+		<input type="color" name="color" value="#000">
+	</div>
+	<div class="container-img">
+		<img src="img/img.jpg">
+	</div>
+
+
+	<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>

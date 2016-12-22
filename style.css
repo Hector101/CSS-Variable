@@ -1,0 +1,30 @@
+html{
+	background:  #91F793;
+	background-size: cover;
+	font-family: "Helvetica";
+}
+body{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 100;
+	color: #193517;
+	text-shadow: 0 0 2px white;
+	min-height: 97vh;
+}
+img{
+	width: 50%;
+	height: auto;
+	border-radius: 15px;
+}
+.container{
+	margin-bottom: 50px;
+}
+.container-img{
+	width: 100%;
+}
+input{
+	width: 70px;
+}
+.h-js{
+	color: #595825;
+}
