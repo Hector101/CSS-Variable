@@ -1,3 +1,8 @@
+:root{
+	--color: #000000;,
+	--spacing: 1rem;
+	--blur: 0rem;
+}
 html{
 	background:  #91F793;
 	background-size: cover;
@@ -11,20 +16,22 @@ body{
 	text-shadow: 0 0 2px white;
 	min-height: 97vh;
 }
+
 img{
 	width: 50%;
 	height: auto;
 	border-radius: 15px;
+	box-shadow: 0 0  30px var(--color);
+	padding: var(--spacing);
+	background: var(--color);
+	filter: blur(var(--blur));
 }
 .container{
 	margin-bottom: 50px;
 }
-.container-img{
-	width: 100%;
-}
 input{
-	width: 70px;
+	width: 100px;
 }
 .h-js{
-	color: #595825;
+	color: var(--color);
 }
